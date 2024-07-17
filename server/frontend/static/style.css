@@ -124,3 +124,29 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.divider-vertical-custom {
+        border: 2px solid black;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 4%;
+}
+
+.contact-row-custom {
+        display: inline-flex;
+    margin: 2rem;
+}
+
+.contact-links-custom {
+        color: cornflowerblue;
+    width: 48%;
+    margin-top: 5rem;
+}
+
+
+.custom-ro-img-container {
+    width: 48%;
+}
