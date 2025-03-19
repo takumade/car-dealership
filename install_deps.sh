@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd server
 
 echo "[!] Installing backend:main dependencies"
 sh init_env.sh                      # Create and activate a virtulenv then install Django deps
