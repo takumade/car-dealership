@@ -1,5 +1,11 @@
 #!/bin/bash
 
+
+echo "[!] Setting up virtual env"
 sh init_env.sh                      # Create and activate a virtulenv then install Django deps
-cd database && yarn  && cd ..       # Install database dependencies
-cd forntend && yarn  && cd ..       # Install database dependencies
+
+echo "[!] Installing backend:database dependencies"
+cd database && yarn  && cd ..       # Install backend: database dependencies
+
+echo "[!] Installing frontend:frontend dependencies"
+cd frontend && yarn  && cd ..       # Install frontend:fronted dependencies
